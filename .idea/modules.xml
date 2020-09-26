@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/microservice-commons/microservice-commons.iml" filepath="$PROJECT_DIR$/microservice-commons/microservice-commons.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-commons/microservice-eureka.iml" filepath="$PROJECT_DIR$/microservice-commons/microservice-eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-commons/microservice-students.iml" filepath="$PROJECT_DIR$/microservice-commons/microservice-students.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-commons/microservice-zuul.iml" filepath="$PROJECT_DIR$/microservice-commons/microservice-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-commons/university-microservices.microservice-commons.iml" filepath="$PROJECT_DIR$/microservice-commons/university-microservices.microservice-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-commons/university-microservices.microservice-eureka.iml" filepath="$PROJECT_DIR$/microservice-commons/university-microservices.microservice-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-commons/university-microservices.microservice-students.iml" filepath="$PROJECT_DIR$/microservice-commons/university-microservices.microservice-students.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-commons/university-microservices.microservice-zuul.iml" filepath="$PROJECT_DIR$/microservice-commons/university-microservices.microservice-zuul.iml" />
     </modules>
   </component>
 </project>

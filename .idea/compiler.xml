@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microservice-eureka" />
-        <module name="microservice-zuul" />
-        <module name="microservice-commons" />
+        <module name="university-microservices.microservice-eureka" />
+        <module name="university-microservices.microservice-zuul" />
+        <module name="university-microservices.microservice-commons" />
       </profile>
       <profile name="Annotation profile for microservice-students" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -17,22 +17,22 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar" />
         </processorPath>
-        <module name="microservice-students" />
+        <module name="university-microservices.microservice-students" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="microservice-commons" target="11" />
-      <module name="microservice-eureka" target="11" />
-      <module name="microservice-students" target="11" />
-      <module name="microservice-zuul" target="11" />
+      <module name="university-microservices.microservice-commons" target="11" />
+      <module name="university-microservices.microservice-eureka" target="11" />
+      <module name="university-microservices.microservice-students" target="11" />
+      <module name="university-microservices.microservice-zuul" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="microservice-commons" options="-parameters" />
-      <module name="microservice-eureka" options="-parameters" />
-      <module name="microservice-students" options="-parameters" />
-      <module name="microservice-zuul" options="-parameters" />
+      <module name="university-microservices.microservice-commons" options="-parameters" />
+      <module name="university-microservices.microservice-eureka" options="-parameters" />
+      <module name="university-microservices.microservice-students" options="-parameters" />
+      <module name="university-microservices.microservice-zuul" options="-parameters" />
     </option>
   </component>
 </project>
